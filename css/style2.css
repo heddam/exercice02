@@ -1,3 +1,39 @@
+.entete, .nav, .Pieds, .Article, .divers {
+  border: 2px solid deepskyblue;
+  font-size: 18px;
+  font-family: "Arial Black";
+  background-color: lightgreen;
+  text-align: center;
+  margin: 6px;
+}
 
+.bandeau-h {
+  display: flex;
+}
 
-/*# sourceMappingURL=style2.css.map */
+.bandeau-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.milieu {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.entete, .Pieds {
+  width: 100%;
+  height: 64px;
+}
+
+.nav, .divers {
+  width: 128px;
+  height: 500px;
+}
+
+.Article {
+  width: 600px;
+}
